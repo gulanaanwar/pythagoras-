@@ -23,3 +23,8 @@ def hypotenuse(opp_sq, adj_sq):
     sum_o_a = opp_sq + adj_sq
     sqrt = (sum_o_a)**0.5
     return sqrt
+
+def pythag(opp, adj):
+    opp_sq, adj_sq = square(opp, adj)
+    h = hypotenuse(opp_sq, adj_sq)
+    return h
